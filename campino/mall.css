@@ -1,0 +1,272 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-image: linear-gradient(to bottom right, #3d1015, #e2485c);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.logoheader{
+	background-color: #7b0413;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0rem 1rem 2rem #8c2b35;
+	z-index: 2;
+	position: absolute;
+	transition: all 0.3s;
+	width: 100%
+}
+
+.logoheader:hover{
+	padding-top: 2rem;
+}
+
+.logo{
+	font-size: 6rem;
+	padding: 3rem;
+	color: #f39728;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Mukta', sans-serif;
+}
+
+.homenews{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 3.5rem;
+	padding-top: 1rem;
+	padding-top: 16rem;
+	min-width: 100%;
+	background-color: #f39728;
+	z-index: 1;
+	text-align: center;
+}
+
+.homenews p{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.homemain{
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	grid-gap: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.menumain{
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	grid-gap: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+
+.pizzordiv{
+	border-radius: 4rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	z-index: 2;
+}
+
+.pizzorbild{
+	position: relative;
+	width: 90%;
+	border-radius: 2rem;
+	box-shadow: 1rem 1rem 1rem #f39728;
+	z-index: 2;
+}
+
+.pizzeriorbild{
+	position: relative;
+	width: 100%;
+	border-radius: 2rem;
+	box-shadow: -1rem 1rem 1rem #f39728;
+}
+
+.omossbild{
+	position: relative;
+	width: 90%;
+	border-radius: 2rem;
+	box-shadow: 1rem 1rem 1rem #f39728;
+}
+
+.pizzortxt{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 6rem;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	text-shadow: 0px 0px 1rem black;
+}
+
+.pizzeriortxt{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 6rem;
+	height: 100%;
+	width: 100%;
+	text-shadow: 0px 0px 1rem black;
+}
+
+.pizzerior{
+	padding: 1rem;
+	grid: 2 / 1 / 3 / 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.omoss{
+	grid: 3 / 1 / 4 / 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	width: 100%;
+}
+
+.omosstxt{
+	grid: 3 / 2 / 4 / 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 6rem;
+	height: 100%;
+	text-shadow: 0px 0px 1rem black;
+}
+
+.solidDivider{
+	border-top: 3px solid red;
+}
+
+.pizzaNamn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4rem;
+	padding-top: 2rem;
+}
+
+.pizzaNamn p{
+	color: orange;
+}
+
+.pizzaIng{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.menyTitel{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	margin: 3rem;
+	margin-top: 6rem;
+	text-decoration: underline;
+	text-underline-offset: 30px;
+	font-family: 'Merriweather', serif;
+}
+
+.map{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+.map p{
+	margin-top: 3rem;
+	width: 100%;
+}
+
+.aboutUs{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 2rem;
+}
+
+.footer{
+	background-color: #7b0413;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0rem -1rem 1rem #8c2b35;
+	margin-top: 14rem;
+	padding-bottom: 10rem;
+	width: 100%;
+	text-align: center;
+}
+
+.footer p{
+	padding-top: 2rem;
+	font-size: 2rem;
+}
+
+.footer h1{
+	align-items: center;
+	justify-content: center;
+}
+
+p{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	z-index: 2;
+}
+
+h1{
+	color: white;
+}
+
+i{
+	color: white;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 900px){
+	.homenews p{
+		font-size: 2.5rem;
+	}	
+
+
+	.menyTitel{
+		font-size: 2.5rem;
+	}
+	.pizzaNamn{
+		font-size: 2rem;
+	}
+	.pizzaIng{
+		font-size: 2rem;
+	}
+}
